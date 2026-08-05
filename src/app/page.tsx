@@ -13,8 +13,9 @@ export default function Home() {
         draggable={false}
       />
 
-      <div className="relative z-10 flex min-h-dvh items-center justify-center px-3 py-5 md:px-4 md:py-3">
-        <div className="relative w-full max-w-7xl">
+      <div className="relative z-10 flex min-h-dvh items-center justify-center px-4 py-6 md:px-8 md:py-6">
+        {/* Trimmed artwork — nearly full phone width, capped on desktop */}
+        <div className="relative w-[92vw] max-w-md md:w-full md:max-w-2xl">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/foreground.png"
@@ -28,7 +29,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Otevřít Instagram libovychipsy"
-            className="absolute bottom-[2%] left-1/2 z-10 h-[14%] w-[55%] max-w-md -translate-x-1/2 md:bottom-[1.5%] md:h-[12%] md:w-[30%]"
+            className="absolute bottom-[1%] left-1/2 z-10 h-[12%] w-[85%] -translate-x-1/2 md:bottom-[1%] md:h-[10%] md:w-[70%]"
           />
         </div>
       </div>
