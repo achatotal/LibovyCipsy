@@ -6,15 +6,15 @@ export default function Home() {
       {/* Full-bleed marble — covers edges on every screen size */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/background.png"
+        src="/background.jpg"
         alt=""
         aria-hidden
         className="pointer-events-none absolute inset-0 h-full w-full object-cover object-center"
         draggable={false}
       />
 
-      <div className="relative z-10 flex min-h-dvh items-center justify-center px-4 py-8 md:px-10 md:py-6">
-        <div className="relative w-full max-w-5xl">
+      <div className="relative z-10 flex min-h-dvh items-center justify-center px-3 py-5 md:px-4 md:py-3">
+        <div className="relative w-full max-w-7xl">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/foreground.png"
